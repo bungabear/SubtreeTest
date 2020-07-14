@@ -1,8 +1,8 @@
 기본 사용법
 git remote add [subtree name] [subtree git url]  
 git subtree add --prefix [폴더이름] [subtree name] [subtree commit/branch]  
-git subtree pull --prefix [subtree name] [subtree commit/branch]  
-git subtree push --prefix [subtree name] [subtree commit/branch]  
+git subtree pull --prefix [폴더이름] [subtree name] [subtree commit/branch]  
+git subtree push --prefix [폴더이름] [subtree name] [subtree commit/branch]  
   
 기존 폴더를 subtree로 분리  
 

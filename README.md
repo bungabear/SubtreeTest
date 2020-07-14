@@ -13,3 +13,6 @@ git remote add [new subtree name] [new subtree git url]
 \# subtree remote에 subtree 브랜치 push  
 git push [temperal branch name] [new subtree name]:master 
 이후 [temperal branch name]과 [target folder] 삭제 후 subtree 명령어로 repo 재 추가
+
+## 주의사항
+Windows라 할지라도, \가 아닌 /를 써야 제대로 동작한다.
